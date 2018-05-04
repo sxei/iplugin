@@ -86,7 +86,7 @@
 		"page": "options.html",
 		// 添加一些默认的样式，推荐使用
 		"chrome_style": true
-	},
+	}
 	// devtools页面入口，注意只能指向一个HTML文件，不能是JS文件
-	"devtools_page": "devtools.html"
+	//"devtools_page": "devtools.html"
 }

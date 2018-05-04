@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', function()
 {
 	// 如果打开的是axure页面，通过增加特殊属性来禁止自动跳转到插件安装页面
-	if(location.protocol === 'file:' && window.$axure) {
+	if(location.protocol === 'file:' && /index\.html$/g.test(location.pathname)) {
 		document.body.setAttribute('pluginDetected', 'true');
 	}
 	
